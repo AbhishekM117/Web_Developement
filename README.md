@@ -1,4 +1,4 @@
-# Web_Developement
+# Web Developement
 Some Basics of 
 1. HTML5, 
 2. CSS3 with some SCSS,
