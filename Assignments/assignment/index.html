@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <title>Contact Info</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            height: 100vh;
+            font-family: sans-serif;
+            background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+            color: rgb(0, 0, 0);
+            line-height: 1.8;
+        }
+        
+        #container {
+            margin: 30px auto;
+            max-width: 400px;
+            padding: 20px;
+        }
+        
+        .form-wrap {
+            border-radius: 10px;
+            background: white;
+            padding: 15px 25px;
+        }
+        
+        .form-wrap .form-group {
+            margin-top: 15px;
+        }
+        
+        .form-wrap h1 {
+            text-align: center;
+        }
+        
+        .form-wrap .form-group label {
+            display: block;
+        }
+        
+        .form-wrap .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: #ddd 1px solid;
+            border-radius: 5px;
+        }
+        
+        .form-wrap .form-group select {
+            width: 100%;
+            display: block;
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid #333;
+        }
+        
+        option {
+            display: block;
+            width: fit-content;
+        }
+        
+        textarea {
+            width: 100%;
+        }
+        
+        .btn {
+            border: none;
+            color: white;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+            border-radius: 15px;
+            transition: all 1s ease-in-out;
+        }
+        /* .btn:hover {
+            transform: scale(1.1);
+        } */
+        
+        .btn i {
+            color: white;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .btn i:hover {
+            transform: translateX(10px);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="form-wrap">
+            <h1>Say Hello!</h1>
+            <form>
+                <div class="form-group">
+                    <label for="Your Name">Your Name</label>
+                    <input type="text" name="Your Name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="service">Needed Services</label>
+                    <select class="selection-1" name="budget" tabindex="-1" aria-hidden="true">
+                        <option>Choose Services</option>
+                        <option>Online store</option>
+                        <option>E- Commerce</option>
+                        <option>UI/UX Design</option>
+                        <option>Online services</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <label for="budget">Budget</label>
+                    <select class="selection-2" name="budget" tabindex="-1" aria-hidden="true">
+                        <option>Select Budget</option>
+                        <option>1500 $</option>
+                        <option>2000 $</option>
+                        <option>2500 $</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" cols="30">Your message here..</textarea>
+                </div>
+                <button class="btn" type="submit">Submit <i class="fas fa-arrow-right fa-2x"></i></button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

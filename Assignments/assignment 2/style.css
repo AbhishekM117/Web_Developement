@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    font-family: sans-serif;
+    background: url(./sample.png) no-repeat center center/cover;
+}
+
+nav {
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-end; */
+    text-align: end;
+    padding: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: steelblue;
+}
+
+#icon:hover {
+    color: steelblue;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.form-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: none;
+    padding: 15px 25px;
+    color: white;
+    align-items: center;
+}
+
+.form-wrap .form-group {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.form-wrap .form-group label {
+    margin: auto;
+    display: block;
+}
+
+.form-wrap .form-group input {
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 20px;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    background: none;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+button:hover {
+    background: #fff;
+    color: steelblue;
+}
+
+.btn-2 {
+    background-color: white;
+    color: steelblue;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: steelblue;
+}
+
+.more {
+    text-decoration: underline;
+}

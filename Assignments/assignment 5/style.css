@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    background: url(./sample.png) no-repeat center center/cover;
+}
+
+.navbar {
+    opacity: 0.6;
+    border-bottom: 1px white solid;
+}
+
+.modal {
+    background: powderblue;
+}
+
+.modal .modal-header {
+    align-items: center;
+    background: url(./sample.png) no-repeat center center/cover;
+}
+
+.modal .modal-title {
+    text-align: center;
+}
